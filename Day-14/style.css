@@ -1,0 +1,39 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 15px;
+}
+
+#emailApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#emailHead{
+    margin: 10px;
+}
+
+#email{
+    padding: 10px;
+    border: 2px solid rgb(0, 140, 255);
+}
+
+#button {
+    margin: 10px;
+    padding: 7px 15px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
