@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce App Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome, <span id="username">!</span></h2>
+      <button id="logoutBtn" onclick="logout()">Logout</button>
+
+      <div id="addProductForm">
+        <div id="header">
+            <button id="logoutBtn" onclick="logout()">Logout</button>
+        </div>
+        <h3>Add Product</h3>
+        <input type="text" id="productName" placeholder="Product Name" />
+        <input type="text" id="productPrice" placeholder="Product Price" />
+        <input
+          type="text"
+          id="productCategory"
+          placeholder="Product Category"
+        />
+        <input type="text" id="productImage" placeholder="Image URL" />
+        <button onclick="addProduct()">Add Product</button>
+        <p class="message" id="productMessage"></p>
+      </div>
+
+      <div id="productContainer">
+        <h3>All Products</h3>
+        <div id="productList"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
